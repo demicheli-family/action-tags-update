@@ -1,0 +1,31 @@
+{
+  "name": "action-tags-update",
+  "version": "1.0.0",
+  "description": "Automatically update file action with last 10 tags",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "typescript",
+    "automation"
+  ],
+  "author": "Loris Demicheli",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.1",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

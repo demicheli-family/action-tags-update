@@ -1,0 +1,16 @@
+name: "Update YAML with Tags"
+description: "Fetch the latest 10 tags from the repository and update a YAML file with them."
+author: "Tuo Nome"
+inputs:
+  token:
+    description: "GitHub token to authenticate API requests"
+    required: true
+  file:
+    description: "Path to the YAML file to update"
+    required: true
+  input_name_tags:
+    description: "Name of the input field to populate with the tags (default: 'tags')"
+    required: false
+runs:
+  using: "node16"
+  main: "dist/index.js"
