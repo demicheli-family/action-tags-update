@@ -1,6 +1,6 @@
 name: "Update YAML with Tags"
 description: "Fetch the latest 10 tags from the repository and update a YAML file with them."
-author: "Tuo Nome"
+author: "Loris Demicheli"
 inputs:
   token:
     description: "GitHub token to authenticate API requests"
