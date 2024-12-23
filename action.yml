@@ -2,9 +2,6 @@ name: "Update YAML with Tags"
 description: "Fetch the latest 10 tags from the repository and update a YAML file with them."
 author: "Loris Demicheli"
 inputs:
-  token:
-    description: "GitHub token to authenticate API requests"
-    required: true
   file:
     description: "Path to the YAML file to update"
     required: true
